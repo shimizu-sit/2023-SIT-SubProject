@@ -10,7 +10,7 @@
 |         項目          |           バージョン           |
 | --------------------- | ------------------------------ |
 | Mac                   | Ventura 13.4(Intel, M2)        |
-| Windows               | Windows11 (Ver.は確認して記入) |
+| Windows               | windows11 Pro 22H2 22621.1778 |
 | Processing            | 4.2                            |
 | Visual Studio Code(※) | 1.79.1                         |
 
