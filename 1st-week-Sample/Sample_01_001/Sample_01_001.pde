@@ -13,4 +13,5 @@ void draw() {
   shader(fs);
   // 矩形(四角形)を描画する
   rect(0, 0, width, height);
+  save("Sample_01_001.png");
 }
