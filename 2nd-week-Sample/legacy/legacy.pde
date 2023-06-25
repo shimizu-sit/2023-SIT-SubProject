@@ -2,7 +2,7 @@ PShader fs;
 
 void setup() {
   size(800, 800, P2D);
-  fs = loadShader("FragmentShader.glsl");
+  fs = loadShader("LegacyRandom.glsl");
 }
 
 void draw() {
