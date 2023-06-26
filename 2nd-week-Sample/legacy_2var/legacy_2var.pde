@@ -2,7 +2,7 @@ PShader fs;
 
 void setup() {
   size(800, 800, P2D);
-  fs = loadShader("LegacyRandom.glsl");
+  fs = loadShader("LegacyRandom_2var.glsl");
 }
 
 void draw() {
@@ -10,4 +10,5 @@ void draw() {
   fs.set("resolution", (float)width, (float)height);
   shader(fs);
   rect(0, 0, width, height);
+  save("legacy_2var.png");
 }
