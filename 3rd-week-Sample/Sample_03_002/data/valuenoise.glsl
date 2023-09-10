@@ -17,6 +17,7 @@ float noise(vec2 p){
     float e11=randSin21(n+vec2(1,1));
     
     vec2 f=fract(p);
+    f=f*f*(3.-2.*f);
     return mix(mix(e00,e10,f[0]),mix(e01,e11,f[0]),f[1]);
 }
 
